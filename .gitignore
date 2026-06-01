@@ -1,0 +1,34 @@
+# Model weights — never commit
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+*.onnx
+
+# HuggingFace / model caches
+.cache/
+**/.cache/
+huggingface/
+**/huggingface/
+hf_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Large binaries / archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

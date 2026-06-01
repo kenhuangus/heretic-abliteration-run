@@ -1,0 +1,1543 @@
+﻿█░█░█▀▀░█▀▄░█▀▀░▀█▀░█░█▀▀  v1.3.0
+█▀█░█▀▀░█▀▄░█▀▀░░█░░█░█░░
+▀░▀░▀▀▀░▀░▀░▀▀▀░░▀░░▀░▀▀▀  https://github.com/p-e-w/heretic
+
+Detected 1 XPU device(s)
+Driver Version: Unknown
+* XPU 0: Intel(R) Arc(TM) 140V GPU (16GB)
+
+Loading model Qwen/Qwen3-4B-Instruct-2507...
+heretic : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate 
+limits and faster downloads.
+At line:5 char:1
++ heretic --model Qwen/Qwen3-4B-Instruct-2507 --n-trials 50 --n-startup ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+* Trying dtype auto...
+
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/398 [00:01<10:14,  1.55s/it]
+Loading weights:   1%|          | 4/398 [00:01<02:15,  2.91it/s]
+Loading weights:   2%|▏         | 9/398 [00:01<00:53,  7.32it/s]
+Loading weights:   4%|▎         | 14/398 [00:02<00:36, 10.64it/s]
+Loading weights:   5%|▌         | 20/398 [00:02<00:23, 16.09it/s]
+Loading weights:   6%|▌         | 23/398 [00:02<00:22, 16.78it/s]
+Loading weights:   7%|▋         | 26/398 [00:02<00:21, 17.02it/s]
+Loading weights:   8%|▊         | 30/398 [00:02<00:18, 19.58it/s]
+Loading weights:   9%|▉         | 36/398 [00:02<00:15, 23.13it/s]
+Loading weights:  10%|▉         | 39/398 [00:03<00:18, 19.76it/s]
+Loading weights:  11%|█         | 43/398 [00:03<00:15, 23.31it/s]
+Loading weights:  12%|█▏        | 47/398 [00:03<00:17, 20.50it/s]
+Loading weights:  13%|█▎        | 52/398 [00:03<00:13, 25.55it/s]
+Loading weights:  15%|█▍        | 58/398 [00:03<00:15, 22.32it/s]
+Loading weights:  15%|█▌        | 61/398 [00:04<00:15, 22.46it/s]
+Loading weights:  17%|█▋        | 66/398 [00:04<00:13, 24.99it/s]
+Loading weights:  17%|█▋        | 69/398 [00:04<00:14, 22.89it/s]
+Loading weights:  18%|█▊        | 72/398 [00:04<00:18, 17.29it/s]
+Loading weights:  19%|█▉        | 77/398 [00:04<00:15, 21.38it/s]
+Loading weights:  20%|██        | 80/398 [00:05<00:15, 20.43it/s]
+Loading weights:  21%|██        | 83/398 [00:05<00:19, 16.08it/s]
+Loading weights:  22%|██▏       | 87/398 [00:05<00:16, 19.41it/s]
+Loading weights:  23%|██▎       | 91/398 [00:05<00:14, 21.79it/s]
+Loading weights:  24%|██▎       | 94/398 [00:05<00:15, 19.07it/s]
+Loading weights:  24%|██▍       | 97/398 [00:05<00:15, 19.44it/s]
+Loading weights:  26%|██▌       | 102/398 [00:06<00:12, 24.29it/s]
+Loading weights:  26%|██▋       | 105/398 [00:06<00:14, 20.63it/s]
+Loading weights:  28%|██▊       | 113/398 [00:06<00:10, 27.25it/s]
+Loading weights:  29%|██▉       | 116/398 [00:06<00:13, 20.25it/s]
+Loading weights:  30%|██▉       | 119/398 [00:06<00:13, 20.78it/s]
+Loading weights:  31%|███       | 123/398 [00:07<00:12, 21.44it/s]
+Loading weights:  32%|███▏      | 126/398 [00:07<00:15, 18.00it/s]
+Loading weights:  33%|███▎      | 132/398 [00:07<00:11, 24.14it/s]
+Loading weights:  34%|███▍      | 135/398 [00:07<00:11, 23.42it/s]
+Loading weights:  35%|███▍      | 138/398 [00:07<00:12, 20.00it/s]
+Loading weights:  35%|███▌      | 141/398 [00:07<00:12, 20.00it/s]
+Loading weights:  37%|███▋      | 146/398 [00:08<00:13, 18.99it/s]
+Loading weights:  37%|███▋      | 149/398 [00:08<00:12, 19.52it/s]
+Loading weights:  39%|███▊      | 154/398 [00:08<00:10, 23.55it/s]
+Loading weights:  39%|███▉      | 157/398 [00:08<00:10, 22.26it/s]
+Loading weights:  40%|████      | 160/398 [00:08<00:13, 17.69it/s]
+Loading weights:  41%|████▏     | 165/398 [00:09<00:10, 22.91it/s]
+Loading weights:  42%|████▏     | 169/398 [00:09<00:10, 21.74it/s]
+Loading weights:  43%|████▎     | 172/398 [00:09<00:10, 22.19it/s]
+Loading weights:  44%|████▍     | 176/398 [00:09<00:09, 24.36it/s]
+Loading weights:  45%|████▍     | 179/398 [00:09<00:09, 23.40it/s]
+Loading weights:  48%|████▊     | 191/398 [00:09<00:04, 43.61it/s]
+Loading weights:  51%|█████     | 201/398 [00:09<00:03, 52.07it/s]
+Loading weights:  52%|█████▏    | 207/398 [00:10<00:03, 52.25it/s]
+Loading weights:  54%|█████▎    | 213/398 [00:10<00:03, 53.51it/s]
+Loading weights:  56%|█████▌    | 223/398 [00:10<00:03, 48.75it/s]
+Loading weights:  59%|█████▉    | 235/398 [00:10<00:02, 58.78it/s]
+Loading weights:  62%|██████▏   | 245/398 [00:10<00:02, 63.17it/s]
+Loading weights:  63%|██████▎   | 252/398 [00:10<00:02, 57.63it/s]
+Loading weights:  65%|██████▍   | 258/398 [00:10<00:02, 52.43it/s]
+Loading weights:  67%|██████▋   | 268/398 [00:11<00:02, 57.70it/s]
+Loading weights:  70%|██████▉   | 278/398 [00:11<00:01, 61.10it/s]
+Loading weights:  72%|███████▏  | 285/398 [00:11<00:01, 58.56it/s]
+Loading weights:  73%|███████▎  | 291/398 [00:11<00:02, 53.38it/s]
+Loading weights:  76%|███████▌  | 301/398 [00:11<00:01, 59.21it/s]
+Loading weights:  78%|███████▊  | 311/398 [00:11<00:01, 61.48it/s]
+Loading weights:  80%|███████▉  | 318/398 [00:11<00:01, 59.74it/s]
+Loading weights:  81%|████████▏ | 324/398 [00:12<00:01, 51.96it/s]
+Loading weights:  84%|████████▍ | 334/398 [00:12<00:01, 57.32it/s]
+Loading weights:  85%|████████▌ | 340/398 [00:12<00:01, 56.26it/s]
+Loading weights:  87%|████████▋ | 346/398 [00:12<00:01, 50.45it/s]
+Loading weights:  89%|████████▉ | 356/398 [00:12<00:00, 57.67it/s]
+Loading weights:  92%|█████████▏| 366/398 [00:12<00:00, 61.53it/s]
+Loading weights:  94%|█████████▍| 374/398 [00:12<00:00, 63.36it/s]
+Loading weights:  96%|█████████▌| 381/398 [00:12<00:00, 61.17it/s]
+Loading weights:  98%|█████████▊| 389/398 [00:13<00:00, 61.86it/s]
+Loading weights: 100%|██████████| 398/398 [00:13<00:00, 30.13it/s]
+* LoRA adapters initialized (target types: down_proj, o_proj)
+* Transformer model with 36 layers
+* Abliterable components:
+  * attn.o_proj: 36 modules total
+  * mlp.down_proj: 36 modules total
+
+Resident system RAM: 10.82 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 7.50 GB
+
+Loading good prompts from mlabonne/harmless_alpaca...
+* 400 prompts loaded
+
+Loading bad prompts from mlabonne/harmful_behaviors...
+* 400 prompts loaded
+
+Determining optimal batch size...
+* Trying batch size 1... Ok (5 tokens/s)
+* Trying batch size 2... Ok (12 tokens/s)
+* Trying batch size 4... Ok (21 tokens/s)
+* Trying batch size 8... Ok (36 tokens/s)
+* Trying batch size 16... Ok (77 tokens/s)
+* Trying batch size 32... Ok (139 tokens/s)
+* Trying batch size 64... Ok (200 tokens/s)
+* Trying batch size 128... Ok (231 tokens/s)
+* Chosen batch size: 128
+
+Checking for common response prefix...
+* None found
+
+Loading good evaluation prompts from mlabonne/harmless_alpaca...
+* 100 prompts loaded
+* Obtaining first-token probability distributions...
+
+Loading bad evaluation prompts from mlabonne/harmful_behaviors...
+* 100 prompts loaded
+* Counting model refusals...
+* Initial refusals: 100/100
+
+Calculating per-layer refusal directions...
+* Obtaining residual mean for good prompts...
+* Obtaining residual mean for bad prompts...
+
+Running trial 1 of 50...
+* Parameters:
+  * direction_index = 23.59
+  * attn.o_proj.max_weight = 1.04
+  * attn.o_proj.max_weight_position = 26.39
+  * attn.o_proj.min_weight = 0.98
+  * attn.o_proj.min_weight_distance = 1.02
+  * mlp.down_proj.max_weight = 0.83
+  * mlp.down_proj.max_weight_position = 28.18
+  * mlp.down_proj.min_weight = 0.22
+  * mlp.down_proj.min_weight_distance = 4.71
+* Resetting model...
+* Abliterating...
+C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\_lowrank.py:72: UserWarning: Aten Op 
+fallback from XPU to CPU happends. This may have performance implications. If need debug the fallback ops please set 
+environment variable `PYTORCH_DEBUG_XPU_FALLBACK=1`  (Triggered internally at 
+C:\actions-runner\_work\pytorch\pytorch\build\xpu\ATen\RegisterXPU_0.cpp:54885.)
+  Q = torch.linalg.qr(X).Q
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0019
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 54s
+Estimated remaining time: 43m 55s
+Resident system RAM: 8.16 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.71 GB
+
+Running trial 2 of 50...
+* Parameters:
+  * direction_index = 27.38
+  * attn.o_proj.max_weight = 1.34
+  * attn.o_proj.max_weight_position = 23.72
+  * attn.o_proj.min_weight = 0.20
+  * attn.o_proj.min_weight_distance = 16.75
+  * mlp.down_proj.max_weight = 1.34
+  * mlp.down_proj.max_weight_position = 25.25
+  * mlp.down_proj.min_weight = 0.68
+  * mlp.down_proj.min_weight_distance = 8.30
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0616
+  * Counting model refusals...
+  * Refusals: 74/100
+
+Elapsed time: 1m 48s
+Estimated remaining time: 43m 10s
+Resident system RAM: 9.13 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 11.02 GB
+
+Running trial 3 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.17
+  * attn.o_proj.max_weight_position = 25.89
+  * attn.o_proj.min_weight = 0.29
+  * attn.o_proj.min_weight_distance = 9.83
+  * mlp.down_proj.max_weight = 0.88
+  * mlp.down_proj.max_weight_position = 30.90
+  * mlp.down_proj.min_weight = 0.74
+  * mlp.down_proj.min_weight_distance = 7.32
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0293
+  * Counting model refusals...
+  * Refusals: 86/100
+
+Elapsed time: 2m 41s
+Estimated remaining time: 42m 9s
+Resident system RAM: 9.00 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.67 GB
+
+Running trial 4 of 50...
+* Parameters:
+  * direction_index = 15.34
+  * attn.o_proj.max_weight = 1.18
+  * attn.o_proj.max_weight_position = 27.03
+  * attn.o_proj.min_weight = 0.39
+  * attn.o_proj.min_weight_distance = 15.35
+  * mlp.down_proj.max_weight = 1.06
+  * mlp.down_proj.max_weight_position = 26.61
+  * mlp.down_proj.min_weight = 0.47
+  * mlp.down_proj.min_weight_distance = 10.09
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0147
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 3m 36s
+Estimated remaining time: 41m 25s
+Resident system RAM: 9.05 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 11.02 GB
+
+Running trial 5 of 50...
+* Parameters:
+  * direction_index = 26.51
+  * attn.o_proj.max_weight = 1.13
+  * attn.o_proj.max_weight_position = 34.58
+  * attn.o_proj.min_weight = 0.29
+  * attn.o_proj.min_weight_distance = 4.02
+  * mlp.down_proj.max_weight = 1.39
+  * mlp.down_proj.max_weight_position = 23.90
+  * mlp.down_proj.min_weight = 1.34
+  * mlp.down_proj.min_weight_distance = 2.45
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0158
+  * Counting model refusals...
+  * Refusals: 91/100
+
+Elapsed time: 4m 30s
+Estimated remaining time: 40m 31s
+Resident system RAM: 9.21 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.75 GB
+
+Running trial 6 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.45
+  * attn.o_proj.max_weight_position = 23.34
+  * attn.o_proj.min_weight = 1.41
+  * attn.o_proj.min_weight_distance = 7.64
+  * mlp.down_proj.max_weight = 0.90
+  * mlp.down_proj.max_weight_position = 30.22
+  * mlp.down_proj.min_weight = 0.51
+  * mlp.down_proj.min_weight_distance = 9.78
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0615
+  * Counting model refusals...
+  * Refusals: 62/100
+
+Elapsed time: 5m 24s
+Estimated remaining time: 39m 33s
+Resident system RAM: 8.92 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.98 GB
+
+Running trial 7 of 50...
+* Parameters:
+  * direction_index = 25.31
+  * attn.o_proj.max_weight = 1.22
+  * attn.o_proj.max_weight_position = 23.06
+  * attn.o_proj.min_weight = 0.78
+  * attn.o_proj.min_weight_distance = 5.68
+  * mlp.down_proj.max_weight = 1.13
+  * mlp.down_proj.max_weight_position = 28.36
+  * mlp.down_proj.min_weight = 0.22
+  * mlp.down_proj.min_weight_distance = 3.64
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0112
+  * Counting model refusals...
+  * Refusals: 99/100
+
+Elapsed time: 6m 15s
+Estimated remaining time: 38m 21s
+Resident system RAM: 8.49 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.26 GB
+
+Running trial 8 of 50...
+* Parameters:
+  * direction_index = 30.69
+  * attn.o_proj.max_weight = 1.20
+  * attn.o_proj.max_weight_position = 30.39
+  * attn.o_proj.min_weight = 0.39
+  * attn.o_proj.min_weight_distance = 17.43
+  * mlp.down_proj.max_weight = 0.90
+  * mlp.down_proj.max_weight_position = 22.72
+  * mlp.down_proj.min_weight = 0.23
+  * mlp.down_proj.min_weight_distance = 12.01
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0251
+  * Counting model refusals...
+  * Refusals: 92/100
+
+Elapsed time: 7m 9s
+Estimated remaining time: 37m 31s
+Resident system RAM: 8.46 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.53 GB
+
+Running trial 9 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 0.86
+  * attn.o_proj.max_weight_position = 33.86
+  * attn.o_proj.min_weight = 0.05
+  * attn.o_proj.min_weight_distance = 5.33
+  * mlp.down_proj.max_weight = 1.40
+  * mlp.down_proj.max_weight_position = 31.84
+  * mlp.down_proj.min_weight = 0.01
+  * mlp.down_proj.min_weight_distance = 18.19
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0543
+  * Counting model refusals...
+  * Refusals: 90/100
+
+Elapsed time: 8m 2s
+Estimated remaining time: 36m 36s
+Resident system RAM: 8.74 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.66 GB
+
+Running trial 10 of 50...
+* Parameters:
+  * direction_index = 16.15
+  * attn.o_proj.max_weight = 1.36
+  * attn.o_proj.max_weight_position = 28.19
+  * attn.o_proj.min_weight = 0.55
+  * attn.o_proj.min_weight_distance = 17.02
+  * mlp.down_proj.max_weight = 0.96
+  * mlp.down_proj.max_weight_position = 22.63
+  * mlp.down_proj.min_weight = 0.55
+  * mlp.down_proj.min_weight_distance = 14.69
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0447
+  * Counting model refusals...
+  * Refusals: 98/100
+
+Elapsed time: 8m 55s
+Estimated remaining time: 35m 40s
+Resident system RAM: 8.56 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.71 GB
+
+Running trial 11 of 50...
+* Parameters:
+  * direction_index = 21.83
+  * attn.o_proj.max_weight = 1.22
+  * attn.o_proj.max_weight_position = 24.13
+  * attn.o_proj.min_weight = 0.21
+  * attn.o_proj.min_weight_distance = 1.23
+  * mlp.down_proj.max_weight = 0.97
+  * mlp.down_proj.max_weight_position = 34.26
+  * mlp.down_proj.min_weight = 0.63
+  * mlp.down_proj.min_weight_distance = 19.83
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0131
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 9m 50s
+Estimated remaining time: 34m 51s
+Resident system RAM: 8.97 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 11.07 GB
+
+Running trial 12 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.11
+  * attn.o_proj.max_weight_position = 29.25
+  * attn.o_proj.min_weight = 0.14
+  * attn.o_proj.min_weight_distance = 11.64
+  * mlp.down_proj.max_weight = 1.37
+  * mlp.down_proj.max_weight_position = 32.16
+  * mlp.down_proj.min_weight = 1.15
+  * mlp.down_proj.min_weight_distance = 2.07
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0092
+  * Counting model refusals...
+  * Refusals: 98/100
+
+Elapsed time: 10m 41s
+Estimated remaining time: 33m 49s
+Resident system RAM: 8.50 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.24 GB
+
+Running trial 13 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.26
+  * attn.o_proj.max_weight_position = 32.33
+  * attn.o_proj.min_weight = 0.03
+  * attn.o_proj.min_weight_distance = 16.15
+  * mlp.down_proj.max_weight = 1.18
+  * mlp.down_proj.max_weight_position = 27.79
+  * mlp.down_proj.min_weight = 0.31
+  * mlp.down_proj.min_weight_distance = 2.58
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0107
+  * Counting model refusals...
+  * Refusals: 99/100
+
+Elapsed time: 11m 31s
+Estimated remaining time: 32m 47s
+Resident system RAM: 8.44 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.72 GB
+
+Running trial 14 of 50...
+* Parameters:
+  * direction_index = 14.97
+  * attn.o_proj.max_weight = 0.87
+  * attn.o_proj.max_weight_position = 22.42
+  * attn.o_proj.min_weight = 0.02
+  * attn.o_proj.min_weight_distance = 7.37
+  * mlp.down_proj.max_weight = 1.46
+  * mlp.down_proj.max_weight_position = 33.95
+  * mlp.down_proj.min_weight = 0.19
+  * mlp.down_proj.min_weight_distance = 19.54
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0071
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 12m 24s
+Estimated remaining time: 31m 53s
+Resident system RAM: 8.28 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.34 GB
+
+Running trial 15 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.36
+  * attn.o_proj.max_weight_position = 31.60
+  * attn.o_proj.min_weight = 0.25
+  * attn.o_proj.min_weight_distance = 5.01
+  * mlp.down_proj.max_weight = 1.10
+  * mlp.down_proj.max_weight_position = 23.30
+  * mlp.down_proj.min_weight = 0.23
+  * mlp.down_proj.min_weight_distance = 2.43
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0101
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 13m 14s
+Estimated remaining time: 30m 52s
+Resident system RAM: 8.45 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.72 GB
+
+Running trial 16 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.33
+  * attn.o_proj.max_weight_position = 25.44
+  * attn.o_proj.min_weight = 0.63
+  * attn.o_proj.min_weight_distance = 10.14
+  * mlp.down_proj.max_weight = 1.19
+  * mlp.down_proj.max_weight_position = 28.01
+  * mlp.down_proj.min_weight = 0.81
+  * mlp.down_proj.min_weight_distance = 16.65
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1131
+  * Counting model refusals...
+  * Refusals: 31/100
+
+Elapsed time: 14m 9s
+Estimated remaining time: 30m 4s
+Resident system RAM: 8.40 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.46 GB
+
+Running trial 17 of 50...
+* Parameters:
+  * direction_index = 27.07
+  * attn.o_proj.max_weight = 1.33
+  * attn.o_proj.max_weight_position = 33.92
+  * attn.o_proj.min_weight = 0.01
+  * attn.o_proj.min_weight_distance = 1.38
+  * mlp.down_proj.max_weight = 1.22
+  * mlp.down_proj.max_weight_position = 30.07
+  * mlp.down_proj.min_weight = 0.53
+  * mlp.down_proj.min_weight_distance = 11.02
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0112
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 15m 0s
+Estimated remaining time: 29m 7s
+Resident system RAM: 8.26 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.58 GB
+
+Running trial 18 of 50...
+* Parameters:
+  * direction_index = 18.41
+  * attn.o_proj.max_weight = 0.97
+  * attn.o_proj.max_weight_position = 22.31
+  * attn.o_proj.min_weight = 0.64
+  * attn.o_proj.min_weight_distance = 17.20
+  * mlp.down_proj.max_weight = 1.00
+  * mlp.down_proj.max_weight_position = 32.70
+  * mlp.down_proj.min_weight = 0.76
+  * mlp.down_proj.min_weight_distance = 9.68
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0273
+  * Counting model refusals...
+  * Refusals: 98/100
+
+Elapsed time: 15m 52s
+Estimated remaining time: 28m 12s
+Resident system RAM: 8.76 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 11.02 GB
+
+Running trial 19 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.19
+  * attn.o_proj.max_weight_position = 27.12
+  * attn.o_proj.min_weight = 0.52
+  * attn.o_proj.min_weight_distance = 20.85
+  * mlp.down_proj.max_weight = 1.32
+  * mlp.down_proj.max_weight_position = 34.33
+  * mlp.down_proj.min_weight = 0.07
+  * mlp.down_proj.min_weight_distance = 1.61
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0351
+  * Counting model refusals...
+  * Refusals: 95/100
+
+Elapsed time: 16m 45s
+Estimated remaining time: 27m 19s
+Resident system RAM: 9.05 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.90 GB
+
+Running trial 20 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 0.85
+  * attn.o_proj.max_weight_position = 29.55
+  * attn.o_proj.min_weight = 0.30
+  * attn.o_proj.min_weight_distance = 17.19
+  * mlp.down_proj.max_weight = 1.25
+  * mlp.down_proj.max_weight_position = 34.72
+  * mlp.down_proj.min_weight = 0.07
+  * mlp.down_proj.min_weight_distance = 10.94
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0230
+  * Counting model refusals...
+  * Refusals: 99/100
+
+Elapsed time: 17m 37s
+Estimated remaining time: 26m 26s
+Resident system RAM: 8.97 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.98 GB
+
+Running trial 21 of 50...
+* Parameters:
+  * direction_index = 20.26
+  * attn.o_proj.max_weight = 1.20
+  * attn.o_proj.max_weight_position = 32.13
+  * attn.o_proj.min_weight = 0.42
+  * attn.o_proj.min_weight_distance = 9.01
+  * mlp.down_proj.max_weight = 1.45
+  * mlp.down_proj.max_weight_position = 27.11
+  * mlp.down_proj.min_weight = 1.27
+  * mlp.down_proj.min_weight_distance = 10.87
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0369
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 18m 31s
+Estimated remaining time: 25m 35s
+Resident system RAM: 8.95 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.82 GB
+
+Running trial 22 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.22
+  * attn.o_proj.max_weight_position = 28.45
+  * attn.o_proj.min_weight = 1.09
+  * attn.o_proj.min_weight_distance = 15.97
+  * mlp.down_proj.max_weight = 1.36
+  * mlp.down_proj.max_weight_position = 23.06
+  * mlp.down_proj.min_weight = 0.29
+  * mlp.down_proj.min_weight_distance = 3.70
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0540
+  * Counting model refusals...
+  * Refusals: 53/100
+
+Elapsed time: 19m 27s
+Estimated remaining time: 24m 45s
+Resident system RAM: 8.83 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.93 GB
+
+Running trial 23 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.31
+  * attn.o_proj.max_weight_position = 24.92
+  * attn.o_proj.min_weight = 0.77
+  * attn.o_proj.min_weight_distance = 8.64
+  * mlp.down_proj.max_weight = 0.94
+  * mlp.down_proj.max_weight_position = 32.69
+  * mlp.down_proj.min_weight = 0.72
+  * mlp.down_proj.min_weight_distance = 19.48
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0856
+  * Counting model refusals...
+  * Refusals: 46/100
+
+Elapsed time: 20m 21s
+Estimated remaining time: 23m 53s
+Resident system RAM: 8.93 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.86 GB
+
+Running trial 24 of 50...
+* Parameters:
+  * direction_index = 29.17
+  * attn.o_proj.max_weight = 1.32
+  * attn.o_proj.max_weight_position = 26.83
+  * attn.o_proj.min_weight = 1.00
+  * attn.o_proj.min_weight_distance = 20.93
+  * mlp.down_proj.max_weight = 1.29
+  * mlp.down_proj.max_weight_position = 33.92
+  * mlp.down_proj.min_weight = 0.28
+  * mlp.down_proj.min_weight_distance = 9.57
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0228
+  * Counting model refusals...
+  * Refusals: 98/100
+
+Elapsed time: 21m 14s
+Estimated remaining time: 23m 0s
+Resident system RAM: 8.72 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.72 GB
+
+Running trial 25 of 50...
+* Parameters:
+  * direction_index = 16.03
+  * attn.o_proj.max_weight = 1.34
+  * attn.o_proj.max_weight_position = 27.87
+  * attn.o_proj.min_weight = 0.68
+  * attn.o_proj.min_weight_distance = 20.65
+  * mlp.down_proj.max_weight = 0.85
+  * mlp.down_proj.max_weight_position = 26.64
+  * mlp.down_proj.min_weight = 0.68
+  * mlp.down_proj.min_weight_distance = 5.22
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0133
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 22m 6s
+Estimated remaining time: 22m 6s
+Resident system RAM: 8.60 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.79 GB
+
+Running trial 26 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.14
+  * attn.o_proj.max_weight_position = 28.86
+  * attn.o_proj.min_weight = 1.13
+  * attn.o_proj.min_weight_distance = 17.01
+  * mlp.down_proj.max_weight = 1.31
+  * mlp.down_proj.max_weight_position = 25.34
+  * mlp.down_proj.min_weight = 0.20
+  * mlp.down_proj.min_weight_distance = 2.98
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0444
+  * Counting model refusals...
+  * Refusals: 67/100
+
+Elapsed time: 22m 57s
+Estimated remaining time: 21m 11s
+Resident system RAM: 8.70 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.81 GB
+
+Running trial 27 of 50...
+* Parameters:
+  * direction_index = 30.58
+  * attn.o_proj.max_weight = 1.11
+  * attn.o_proj.max_weight_position = 34.77
+  * attn.o_proj.min_weight = 0.45
+  * attn.o_proj.min_weight_distance = 1.78
+  * mlp.down_proj.max_weight = 1.38
+  * mlp.down_proj.max_weight_position = 27.73
+  * mlp.down_proj.min_weight = 1.14
+  * mlp.down_proj.min_weight_distance = 2.19
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0088
+  * Counting model refusals...
+  * Refusals: 98/100
+
+Elapsed time: 23m 47s
+Estimated remaining time: 20m 15s
+Resident system RAM: 8.72 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.81 GB
+
+Running trial 28 of 50...
+* Parameters:
+  * direction_index = 27.01
+  * attn.o_proj.max_weight = 1.46
+  * attn.o_proj.max_weight_position = 27.58
+  * attn.o_proj.min_weight = 1.18
+  * attn.o_proj.min_weight_distance = 14.36
+  * mlp.down_proj.max_weight = 1.37
+  * mlp.down_proj.max_weight_position = 22.33
+  * mlp.down_proj.min_weight = 0.26
+  * mlp.down_proj.min_weight_distance = 6.42
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0692
+  * Counting model refusals...
+  * Refusals: 74/100
+
+Elapsed time: 24m 39s
+Estimated remaining time: 19m 22s
+Resident system RAM: 8.72 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.82 GB
+
+Running trial 29 of 50...
+* Parameters:
+  * direction_index = 30.71
+  * attn.o_proj.max_weight = 1.06
+  * attn.o_proj.max_weight_position = 34.79
+  * attn.o_proj.min_weight = 0.14
+  * attn.o_proj.min_weight_distance = 10.98
+  * mlp.down_proj.max_weight = 1.36
+  * mlp.down_proj.max_weight_position = 21.45
+  * mlp.down_proj.min_weight = 1.30
+  * mlp.down_proj.min_weight_distance = 1.07
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0023
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 25m 29s
+Estimated remaining time: 18m 27s
+Resident system RAM: 8.73 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.81 GB
+
+Running trial 30 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.36
+  * attn.o_proj.max_weight_position = 34.95
+  * attn.o_proj.min_weight = 0.16
+  * attn.o_proj.min_weight_distance = 2.66
+  * mlp.down_proj.max_weight = 1.49
+  * mlp.down_proj.max_weight_position = 23.23
+  * mlp.down_proj.min_weight = 1.46
+  * mlp.down_proj.min_weight_distance = 3.74
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0538
+  * Counting model refusals...
+  * Refusals: 88/100
+
+Elapsed time: 26m 19s
+Estimated remaining time: 17m 33s
+Resident system RAM: 8.71 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.82 GB
+
+Running trial 31 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.39
+  * attn.o_proj.max_weight_position = 22.70
+  * attn.o_proj.min_weight = 1.02
+  * attn.o_proj.min_weight_distance = 14.77
+  * mlp.down_proj.max_weight = 1.50
+  * mlp.down_proj.max_weight_position = 21.45
+  * mlp.down_proj.min_weight = 0.62
+  * mlp.down_proj.min_weight_distance = 4.17
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0830
+  * Counting model refusals...
+  * Refusals: 27/100
+
+Elapsed time: 27m 10s
+Estimated remaining time: 16m 39s
+Resident system RAM: 8.73 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.81 GB
+
+Running trial 32 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.12
+  * attn.o_proj.max_weight_position = 27.61
+  * attn.o_proj.min_weight = 1.12
+  * attn.o_proj.min_weight_distance = 16.26
+  * mlp.down_proj.max_weight = 1.38
+  * mlp.down_proj.max_weight_position = 25.27
+  * mlp.down_proj.min_weight = 0.17
+  * mlp.down_proj.min_weight_distance = 4.05
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0528
+  * Counting model refusals...
+  * Refusals: 62/100
+
+Elapsed time: 28m 0s
+Estimated remaining time: 15m 45s
+Resident system RAM: 8.85 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.96 GB
+
+Running trial 33 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.37
+  * attn.o_proj.max_weight_position = 23.65
+  * attn.o_proj.min_weight = 0.82
+  * attn.o_proj.min_weight_distance = 12.47
+  * mlp.down_proj.max_weight = 1.39
+  * mlp.down_proj.max_weight_position = 22.90
+  * mlp.down_proj.min_weight = 0.76
+  * mlp.down_proj.min_weight_distance = 6.20
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1008
+  * Counting model refusals...
+  * Refusals: 34/100
+
+Elapsed time: 28m 51s
+Estimated remaining time: 14m 52s
+Resident system RAM: 8.85 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.80 GB
+
+Running trial 34 of 50...
+* Parameters:
+  * direction_index = 23.42
+  * attn.o_proj.max_weight = 1.21
+  * attn.o_proj.max_weight_position = 31.82
+  * attn.o_proj.min_weight = 0.23
+  * attn.o_proj.min_weight_distance = 3.51
+  * mlp.down_proj.max_weight = 1.11
+  * mlp.down_proj.max_weight_position = 24.02
+  * mlp.down_proj.min_weight = 1.08
+  * mlp.down_proj.min_weight_distance = 5.92
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0148
+  * Counting model refusals...
+  * Refusals: 95/100
+
+Elapsed time: 29m 46s
+Estimated remaining time: 14m 0s
+Resident system RAM: 8.95 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 11.09 GB
+
+Running trial 35 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.40
+  * attn.o_proj.max_weight_position = 32.96
+  * attn.o_proj.min_weight = 1.25
+  * attn.o_proj.min_weight_distance = 19.85
+  * mlp.down_proj.max_weight = 1.31
+  * mlp.down_proj.max_weight_position = 23.07
+  * mlp.down_proj.min_weight = 0.61
+  * mlp.down_proj.min_weight_distance = 6.49
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0974
+  * Counting model refusals...
+  * Refusals: 32/100
+
+Elapsed time: 30m 39s
+Estimated remaining time: 13m 8s
+Resident system RAM: 8.98 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.72 GB
+
+Running trial 36 of 50...
+* Parameters:
+  * direction_index = 23.20
+  * attn.o_proj.max_weight = 0.94
+  * attn.o_proj.max_weight_position = 32.71
+  * attn.o_proj.min_weight = 0.01
+  * attn.o_proj.min_weight_distance = 1.59
+  * mlp.down_proj.max_weight = 1.47
+  * mlp.down_proj.max_weight_position = 25.00
+  * mlp.down_proj.min_weight = 1.39
+  * mlp.down_proj.min_weight_distance = 2.66
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0105
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 31m 31s
+Estimated remaining time: 12m 15s
+Resident system RAM: 8.52 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.47 GB
+
+Running trial 37 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.45
+  * attn.o_proj.max_weight_position = 22.45
+  * attn.o_proj.min_weight = 1.15
+  * attn.o_proj.min_weight_distance = 19.09
+  * mlp.down_proj.max_weight = 1.50
+  * mlp.down_proj.max_weight_position = 22.39
+  * mlp.down_proj.min_weight = 0.23
+  * mlp.down_proj.min_weight_distance = 13.07
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1534
+  * Counting model refusals...
+  * Refusals: 17/100
+
+Elapsed time: 32m 24s
+Estimated remaining time: 11m 23s
+Resident system RAM: 8.45 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.74 GB
+
+Running trial 38 of 50...
+* Parameters:
+  * direction_index = 18.66
+  * attn.o_proj.max_weight = 1.01
+  * attn.o_proj.max_weight_position = 29.01
+  * attn.o_proj.min_weight = 0.99
+  * attn.o_proj.min_weight_distance = 16.37
+  * mlp.down_proj.max_weight = 1.20
+  * mlp.down_proj.max_weight_position = 27.19
+  * mlp.down_proj.min_weight = 0.52
+  * mlp.down_proj.min_weight_distance = 2.95
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0255
+  * Counting model refusals...
+  * Refusals: 98/100
+
+Elapsed time: 33m 15s
+Estimated remaining time: 10m 30s
+Resident system RAM: 8.96 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 11.18 GB
+
+Running trial 39 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.05
+  * attn.o_proj.max_weight_position = 30.58
+  * attn.o_proj.min_weight = 0.58
+  * attn.o_proj.min_weight_distance = 14.80
+  * mlp.down_proj.max_weight = 1.27
+  * mlp.down_proj.max_weight_position = 21.64
+  * mlp.down_proj.min_weight = 0.54
+  * mlp.down_proj.min_weight_distance = 3.77
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0461
+  * Counting model refusals...
+  * Refusals: 79/100
+
+Elapsed time: 34m 8s
+Estimated remaining time: 9m 38s
+Resident system RAM: 8.65 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.51 GB
+
+Running trial 40 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.25
+  * attn.o_proj.max_weight_position = 24.25
+  * attn.o_proj.min_weight = 1.10
+  * attn.o_proj.min_weight_distance = 20.77
+  * mlp.down_proj.max_weight = 1.47
+  * mlp.down_proj.max_weight_position = 23.41
+  * mlp.down_proj.min_weight = 0.60
+  * mlp.down_proj.min_weight_distance = 2.36
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0598
+  * Counting model refusals...
+  * Refusals: 53/100
+
+Elapsed time: 34m 58s
+Estimated remaining time: 8m 45s
+Resident system RAM: 8.29 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.72 GB
+
+Running trial 41 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.45
+  * attn.o_proj.max_weight_position = 22.26
+  * attn.o_proj.min_weight = 1.25
+  * attn.o_proj.min_weight_distance = 9.61
+  * mlp.down_proj.max_weight = 1.43
+  * mlp.down_proj.max_weight_position = 23.12
+  * mlp.down_proj.min_weight = 0.37
+  * mlp.down_proj.min_weight_distance = 1.26
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0429
+  * Counting model refusals...
+  * Refusals: 53/100
+
+Elapsed time: 35m 49s
+Estimated remaining time: 7m 52s
+Resident system RAM: 8.62 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.68 GB
+
+Running trial 42 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.49
+  * attn.o_proj.max_weight_position = 23.67
+  * attn.o_proj.min_weight = 1.25
+  * attn.o_proj.min_weight_distance = 9.48
+  * mlp.down_proj.max_weight = 1.46
+  * mlp.down_proj.max_weight_position = 24.30
+  * mlp.down_proj.min_weight = 0.05
+  * mlp.down_proj.min_weight_distance = 5.39
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0673
+  * Counting model refusals...
+  * Refusals: 49/100
+
+Elapsed time: 36m 40s
+Estimated remaining time: 6m 59s
+Resident system RAM: 8.56 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.82 GB
+
+Running trial 43 of 50...
+* Parameters:
+  * direction_index = 20.05
+  * attn.o_proj.max_weight = 1.32
+  * attn.o_proj.max_weight_position = 22.67
+  * attn.o_proj.min_weight = 1.25
+  * attn.o_proj.min_weight_distance = 8.57
+  * mlp.down_proj.max_weight = 1.43
+  * mlp.down_proj.max_weight_position = 21.55
+  * mlp.down_proj.min_weight = 0.77
+  * mlp.down_proj.min_weight_distance = 1.46
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0178
+  * Counting model refusals...
+  * Refusals: 96/100
+
+Elapsed time: 37m 30s
+Estimated remaining time: 6m 6s
+Resident system RAM: 8.46 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.74 GB
+
+Running trial 44 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.12
+  * attn.o_proj.max_weight_position = 23.05
+  * attn.o_proj.min_weight = 1.00
+  * attn.o_proj.min_weight_distance = 19.67
+  * mlp.down_proj.max_weight = 1.43
+  * mlp.down_proj.max_weight_position = 22.88
+  * mlp.down_proj.min_weight = 0.28
+  * mlp.down_proj.min_weight_distance = 18.08
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1578
+  * Counting model refusals...
+  * Refusals: 22/100
+
+Elapsed time: 38m 25s
+Estimated remaining time: 5m 14s
+Resident system RAM: 8.49 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.74 GB
+
+Running trial 45 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.42
+  * attn.o_proj.max_weight_position = 23.65
+  * attn.o_proj.min_weight = 0.90
+  * attn.o_proj.min_weight_distance = 20.46
+  * mlp.down_proj.max_weight = 1.47
+  * mlp.down_proj.max_weight_position = 21.74
+  * mlp.down_proj.min_weight = 0.27
+  * mlp.down_proj.min_weight_distance = 11.13
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1303
+  * Counting model refusals...
+  * Refusals: 20/100
+
+Elapsed time: 39m 19s
+Estimated remaining time: 4m 22s
+Resident system RAM: 8.72 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.98 GB
+
+Running trial 46 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.13
+  * attn.o_proj.max_weight_position = 27.32
+  * attn.o_proj.min_weight = 0.51
+  * attn.o_proj.min_weight_distance = 10.11
+  * mlp.down_proj.max_weight = 0.83
+  * mlp.down_proj.max_weight_position = 32.75
+  * mlp.down_proj.min_weight = 0.75
+  * mlp.down_proj.min_weight_distance = 8.79
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0294
+  * Counting model refusals...
+  * Refusals: 88/100
+
+Elapsed time: 40m 12s
+Estimated remaining time: 3m 30s
+Resident system RAM: 8.59 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.66 GB
+
+Running trial 47 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.50
+  * attn.o_proj.max_weight_position = 23.31
+  * attn.o_proj.min_weight = 1.37
+  * attn.o_proj.min_weight_distance = 14.93
+  * mlp.down_proj.max_weight = 1.48
+  * mlp.down_proj.max_weight_position = 21.13
+  * mlp.down_proj.min_weight = 0.64
+  * mlp.down_proj.min_weight_distance = 3.54
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0863
+  * Counting model refusals...
+  * Refusals: 29/100
+
+Elapsed time: 41m 5s
+Estimated remaining time: 2m 37s
+Resident system RAM: 8.35 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.51 GB
+
+Running trial 48 of 50...
+* Parameters:
+  * direction_index = 16.82
+  * attn.o_proj.max_weight = 1.44
+  * attn.o_proj.max_weight_position = 25.30
+  * attn.o_proj.min_weight = 0.65
+  * attn.o_proj.min_weight_distance = 16.92
+  * mlp.down_proj.max_weight = 1.43
+  * mlp.down_proj.max_weight_position = 23.20
+  * mlp.down_proj.min_weight = 0.40
+  * mlp.down_proj.min_weight_distance = 5.44
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0194
+  * Counting model refusals...
+  * Refusals: 98/100
+
+Elapsed time: 41m 57s
+Estimated remaining time: 1m 45s
+Resident system RAM: 8.24 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.57 GB
+
+Running trial 49 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.47
+  * attn.o_proj.max_weight_position = 21.00
+  * attn.o_proj.min_weight = 1.24
+  * attn.o_proj.min_weight_distance = 5.01
+  * mlp.down_proj.max_weight = 1.44
+  * mlp.down_proj.max_weight_position = 24.37
+  * mlp.down_proj.min_weight = 0.58
+  * mlp.down_proj.min_weight_distance = 1.33
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0329
+  * Counting model refusals...
+  * Refusals: 87/100
+
+Elapsed time: 42m 47s
+Estimated remaining time: 52s
+Resident system RAM: 8.11 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.63 GB
+
+Running trial 50 of 50...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.32
+  * attn.o_proj.max_weight_position = 22.64
+  * attn.o_proj.min_weight = 1.23
+  * attn.o_proj.min_weight_distance = 2.52
+  * mlp.down_proj.max_weight = 1.50
+  * mlp.down_proj.max_weight_position = 21.50
+  * mlp.down_proj.min_weight = 0.51
+  * mlp.down_proj.min_weight_distance = 1.05
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0070
+  * Counting model refusals...
+  * Refusals: 99/100
+
+Elapsed time: 43m 37s
+Resident system RAM: 8.41 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.55 GB
+
+Optimization finished!
+
+The following trials resulted in Pareto optimal combinations of refusals and KL
+divergence. After selecting a trial, you will be able to save the model, upload
+it to Hugging Face, chat with it to test how well it works, or run standard 
+benchmarks on it. You can return to this menu later to select a different 
+trial. Note that KL divergence values above 0.5 usually indicate significant 
+damage to the original model's capabilities.
+
+┌───────────────────── Traceback (most recent call last) ─────────────────────┐
+│ in _run_module_as_main:198                                                  │
+│ in _run_code:88                                                             │
+│                                                                             │
+│ in <module>:5                                                               │
+│                                                                             │
+│   2 from heretic.main import main                                           │
+│   3 if __name__ == '__main__':                                              │
+│   4 │   sys.argv[0] = sys.argv[0].removesuffix('.exe')                      │
+│ > 5 │   sys.exit(main())                                                    │
+│   6                                                                         │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\he │
+│ retic\main.py:1110 in main                                                  │
+│                                                                             │
+│   1107 │   install()                                                        │
+│   1108 │                                                                    │
+│   1109 │   try:                                                             │
+│ > 1110 │   │   run()                                                        │
+│   1111 │   except BaseException as error:                                   │
+│   1112 │   │   # Transformers appears to handle KeyboardInterrupt (or BaseE │
+│   1113 │   │   # internally in some places, which can re-raise a different  │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\he │
+│ retic\main.py:699 in run                                                    │
+│                                                                             │
+│    696 │   │                                                                │
+│    697 │   │   while True:                                                  │
+│    698 │   │   │   print()                                                  │
+│ >  699 │   │   │   trial = prompt_select("Which trial do you want to use?", │
+│    700 │   │   │                                                            │
+│    701 │   │   │   if trial == "continue":                                  │
+│    702 │   │   │   │   while True:                                          │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\he │
+│ retic\utils.py:119 in prompt_select                                         │
+│                                                                             │
+│   116 │   │   │   except ValueError:                                        │
+│   117 │   │   │   │   print("[red]Invalid input. Please enter a number.[/]" │
+│   118 │   else:                                                             │
+│ > 119 │   │   return questionary.select(                                    │
+│   120 │   │   │   message,                                                  │
+│   121 │   │   │   choices=choices,                                          │
+│   122 │   │   │   style=Style([("highlighted", "reverse")]),                │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\qu │
+│ estionary\prompts\select.py:205 in select                                   │
+│                                                                             │
+│   202 │   │                                                                 │
+│   203 │   │   return tokens                                                 │
+│   204 │                                                                     │
+│ > 205 │   layout = common.create_inquirer_layout(ic, get_prompt_tokens, **k │
+│   206 │                                                                     │
+│   207 │   bindings = KeyBindings()                                          │
+│   208                                                                       │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\qu │
+│ estionary\prompts\common.py:609 in create_inquirer_layout                   │
+│                                                                             │
+│   606 ) -> Layout:                                                          │
+│   607 │   """Create a layout combining question and inquirer selection."""  │
+│   608 │                                                                     │
+│ > 609 │   ps: PromptSession = PromptSession(                                │
+│   610 │   │   get_prompt_tokens, reserve_space_for_menu=0, **kwargs         │
+│   611 │   )                                                                 │
+│   612 │   _fix_unecessary_blank_lines(ps)                                   │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pr │
+│ ompt_toolkit\shortcuts\prompt.py:483 in __init__                            │
+│                                                                             │
+│    480 │   │   self.default_buffer = self._create_default_buffer()          │
+│    481 │   │   self.search_buffer = self._create_search_buffer()            │
+│    482 │   │   self.layout = self._create_layout()                          │
+│ >  483 │   │   self.app = self._create_application(editing_mode, erase_when │
+│    484 │                                                                    │
+│    485 │   def _dyncond(self, attr_name: str) -> Condition:                 │
+│    486 │   │   """                                                          │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pr │
+│ ompt_toolkit\shortcuts\prompt.py:744 in _create_application                 │
+│                                                                             │
+│    741 │   │   prompt_bindings = self._create_prompt_bindings()             │
+│    742 │   │                                                                │
+│    743 │   │   # Create application                                         │
+│ >  744 │   │   application: Application[_T] = Application(                  │
+│    745 │   │   │   layout=self.layout,                                      │
+│    746 │   │   │   style=DynamicStyle(lambda: self.style),                  │
+│    747 │   │   │   style_transformation=merge_style_transformations(        │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pr │
+│ ompt_toolkit\application\application.py:267 in __init__                     │
+│                                                                             │
+│    264 │   │                                                                │
+│    265 │   │   # I/O.                                                       │
+│    266 │   │   session = get_app_session()                                  │
+│ >  267 │   │   self.output = output or session.output                       │
+│    268 │   │   self.input = input or session.input                          │
+│    269 │   │                                                                │
+│    270 │   │   # List of 'extra' functions to execute before a Application. │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pr │
+│ ompt_toolkit\application\current.py:67 in output                            │
+│                                                                             │
+│    64 │   │   if self._output is None:                                      │
+│    65 │   │   │   from prompt_toolkit.output.defaults import create_output  │
+│    66 │   │   │                                                             │
+│ >  67 │   │   │   self._output = create_output()                            │
+│    68 │   │   return self._output                                           │
+│    69                                                                       │
+│    70                                                                       │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pr │
+│ ompt_toolkit\output\defaults.py:91 in create_output                         │
+│                                                                             │
+│    88 │   │   │   │   Output, ConEmuOutput(stdout, default_color_depth=colo │
+│    89 │   │   │   )                                                         │
+│    90 │   │   else:                                                         │
+│ >  91 │   │   │   return Win32Output(stdout, default_color_depth=color_dept │
+│    92 │   else:                                                             │
+│    93 │   │   from .vt100 import Vt100_Output                               │
+│    94                                                                       │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pr │
+│ ompt_toolkit\output\win32.py:115 in __init__                                │
+│                                                                             │
+│   112 │   │   self.color_lookup_table = ColorLookupTable()                  │
+│   113 │   │                                                                 │
+│   114 │   │   # Remember the default console colors.                        │
+│ > 115 │   │   info = self.get_win32_screen_buffer_info()                    │
+│   116 │   │   self.default_attrs = info.wAttributes if info else 15         │
+│   117 │   │                                                                 │
+│   118 │   │   if _DEBUG_RENDER_OUTPUT:                                      │
+│                                                                             │
+│ C:\Users\kenhu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pr │
+│ ompt_toolkit\output\win32.py:219 in get_win32_screen_buffer_info            │
+│                                                                             │
+│   216 │   │   if success:                                                   │
+│   217 │   │   │   return sbinfo                                             │
+│   218 │   │   else:                                                         │
+│ > 219 │   │   │   raise NoConsoleScreenBufferError                          │
+│   220 │                                                                     │
+│   221 │   def set_title(self, title: str) -> None:                          │
+│   222 │   │   """                                                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+NoConsoleScreenBufferError: No Windows console found. Are you running cmd.exe?
