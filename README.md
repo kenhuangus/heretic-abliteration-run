@@ -16,7 +16,7 @@ model weights.
 This work is motivated and enabled by others' work, credited here up front:
 
 - **Motivation / inspiration:** the NPR article on AI-safety concerns about
-  open-weight models, featuring Iftach (CTO):
+  open-weight models, by Huo Jingnan and featuring Noam Schwartz (CEO of Alice):
   <https://www.npr.org/2026/05/31/nx-s1-5816391/ai-safety-concerns-danger-open-weight-models-risks>
   This run was undertaken to concretely understand, first-hand, how easily
   refusal behavior can be ablated from an open-weight model — the exact
@@ -158,35 +158,44 @@ abliteration" idea (grimjim) that Heretic cites.
 
 ---
 
-## Results — first 50 trials
+## Results — full 100-trial study (complete)
 
 Initial state: **100/100 refusals**. (Heretic's rule of thumb: **KL < 0.5**
 means the model's capabilities remain intact.)
 
-Pareto front of the first 50 trials (best trade-offs of refusals vs KL):
+The study is **complete (100 trials total)**. Trials 1–50 ran first; trials
+51–100 — all TPE-guided, no further startup randomness — were launched via
+[`continue_50.py`](continue_50.py) by resuming the same Optuna study checkpoint,
+and the driver returned cleanly ("Optimization finished!"). The committed
+checkpoint
+[`checkpoints/Qwen--Qwen3-4B-Instruct-2507.jsonl`](checkpoints/Qwen--Qwen3-4B-Instruct-2507.jsonl)
+is the **authoritative record of all 100 trials**.
+
+Global Pareto front across all 100 trials (best trade-offs of refusals vs KL):
 
 | Trial | Refusals/100 | KL divergence |
 |---|---|---|
-| 37 | 17 | 0.1534 |
-| 45 | 20 | 0.1303 |
-| 44 | 22 | 0.1578 |
-| 31 | 27 | 0.0830 |
-| 47 | 29 | 0.0863 |
-| 16 | 31 | 0.1131 |
-| 35 | 32 | 0.0974 |
-| 33 | 34 | 0.1008 |
+| 83 | 9 | 0.0630 |
+| 87 | 12 | 0.0533 |
+| 41 | 53 | 0.0429 |
+| 52 | 60 | 0.0420 |
+| 97 | 71 | 0.0350 |
+| 3 | 86 | 0.0293 |
+| 99 | 89 | 0.0105 |
+| 27 | 98 | 0.0088 |
+| 50 | 99 | 0.0070 |
+| 1 | 100 | 0.0019 |
 
-**Summary:** refusals dropped from **100/100 to as low as 17/100 (83% removed)**
-while the model stayed intact (all listed trials have KL well under 0.5).
+**Summary:** with 100 trials the best result improved to **9/100 refusals
+(91% removed) at KL 0.063 (trial 83)** — strictly better than the 50-trial best
+(**17/100 at KL 0.153**, trial 37). The additional 50 TPE-guided trials roughly
+**halved both refusals and KL**. The full front also captures the other extreme
+of the trade-off curve (e.g. trial 1: near-zero KL 0.0019 with refusals
+untouched at 100/100), which is what a multi-objective Pareto search is meant to
+map out.
 
-Trials **51–100** (all TPE-guided, no further startup randomness) were launched
-via [`continue_50.py`](continue_50.py) by resuming the same Optuna study
-checkpoint. **At time of writing, run 2 is still in progress** (see
-[`logs/run2_trials_51_100.log`](logs/run2_trials_51_100.log) — it was at trial
-63 of 100 when this README was committed).
-
-See [`results.md`](results.md) for the tables in one place, and
-[`logs/`](logs/) for the raw run output.
+See [`results.md`](results.md) for the tables in one place (plus the throughput
+sweep), and [`logs/`](logs/) for the raw run output.
 
 ---
 
@@ -229,7 +238,7 @@ SETUP.md                                   exact reproducible setup steps
 continue_50.py                             the non-interactive resume driver
 LICENSE                                    MIT (+ NOTICE re: Heretic's AGPL-3.0)
 logs/run1_first50_trials.log               log of the first 50-trial run (UTF-8)
-logs/run2_trials_51_100.log                log of trials 51-100 (in progress)
+logs/run2_trials_51_100.log                log of trials 51-100 (complete)
 checkpoints/Qwen--Qwen3-4B-Instruct-2507.jsonl   Optuna JournalStorage checkpoint
 ```
 

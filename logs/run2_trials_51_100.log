@@ -376,3 +376,946 @@ Running trial 63 of 100...
   * Obtaining first-token probability distributions...
   * KL divergence: 0.0232
   * Counting model refusals...
+  * Refusals: 92/100
+
+Elapsed time: 13m 19s
+Estimated remaining time: 37m 53s
+Resident system RAM: 4.95 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.67 GB
+
+Running trial 64 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.36
+  * attn.o_proj.max_weight_position = 23.45
+  * attn.o_proj.min_weight = 0.70
+  * attn.o_proj.min_weight_distance = 18.61
+  * mlp.down_proj.max_weight = 1.34
+  * mlp.down_proj.max_weight_position = 22.34
+  * mlp.down_proj.min_weight = 0.29
+  * mlp.down_proj.min_weight_distance = 4.58
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0679
+  * Counting model refusals...
+  * Refusals: 50/100
+
+Elapsed time: 14m 32s
+Estimated remaining time: 37m 22s
+Resident system RAM: 4.81 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.41 GB
+
+Running trial 65 of 100...
+* Parameters:
+  * direction_index = 23.78
+  * attn.o_proj.max_weight = 1.27
+  * attn.o_proj.max_weight_position = 23.95
+  * attn.o_proj.min_weight = 0.21
+  * attn.o_proj.min_weight_distance = 4.02
+  * mlp.down_proj.max_weight = 1.41
+  * mlp.down_proj.max_weight_position = 30.59
+  * mlp.down_proj.min_weight = 1.03
+  * mlp.down_proj.min_weight_distance = 2.45
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0026
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 15m 31s
+Estimated remaining time: 36m 13s
+Resident system RAM: 4.63 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.40 GB
+
+Running trial 66 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.40
+  * attn.o_proj.max_weight_position = 21.66
+  * attn.o_proj.min_weight = 1.22
+  * attn.o_proj.min_weight_distance = 10.90
+  * mlp.down_proj.max_weight = 1.18
+  * mlp.down_proj.max_weight_position = 23.64
+  * mlp.down_proj.min_weight = 0.51
+  * mlp.down_proj.min_weight_distance = 2.36
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0553
+  * Counting model refusals...
+  * Refusals: 56/100
+
+Elapsed time: 16m 35s
+Estimated remaining time: 35m 14s
+Resident system RAM: 4.46 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.28 GB
+
+Running trial 67 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 0.88
+  * attn.o_proj.max_weight_position = 28.92
+  * attn.o_proj.min_weight = 0.01
+  * attn.o_proj.min_weight_distance = 9.63
+  * mlp.down_proj.max_weight = 1.45
+  * mlp.down_proj.max_weight_position = 22.80
+  * mlp.down_proj.min_weight = 1.17
+  * mlp.down_proj.min_weight_distance = 17.08
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.2757
+  * Counting model refusals...
+  * Refusals: 40/100
+
+Elapsed time: 17m 57s
+Estimated remaining time: 34m 51s
+Resident system RAM: 4.41 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.18 GB
+
+Running trial 68 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.08
+  * attn.o_proj.max_weight_position = 21.80
+  * attn.o_proj.min_weight = 0.91
+  * attn.o_proj.min_weight_distance = 1.61
+  * mlp.down_proj.max_weight = 0.88
+  * mlp.down_proj.max_weight_position = 28.31
+  * mlp.down_proj.min_weight = 0.65
+  * mlp.down_proj.min_weight_distance = 17.84
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0653
+  * Counting model refusals...
+  * Refusals: 87/100
+
+Elapsed time: 19m 1s
+Estimated remaining time: 33m 49s
+Resident system RAM: 4.61 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.72 GB
+
+Running trial 69 of 100...
+* Parameters:
+  * direction_index = 28.36
+  * attn.o_proj.max_weight = 1.31
+  * attn.o_proj.max_weight_position = 22.11
+  * attn.o_proj.min_weight = 0.47
+  * attn.o_proj.min_weight_distance = 12.42
+  * mlp.down_proj.max_weight = 0.82
+  * mlp.down_proj.max_weight_position = 29.22
+  * mlp.down_proj.min_weight = 0.56
+  * mlp.down_proj.min_weight_distance = 7.49
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0245
+  * Counting model refusals...
+  * Refusals: 93/100
+
+Elapsed time: 20m 2s
+Estimated remaining time: 32m 42s
+Resident system RAM: 4.80 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.57 GB
+
+Running trial 70 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.47
+  * attn.o_proj.max_weight_position = 23.51
+  * attn.o_proj.min_weight = 0.48
+  * attn.o_proj.min_weight_distance = 10.84
+  * mlp.down_proj.max_weight = 1.47
+  * mlp.down_proj.max_weight_position = 25.93
+  * mlp.down_proj.min_weight = 0.12
+  * mlp.down_proj.min_weight_distance = 9.08
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0838
+  * Counting model refusals...
+  * Refusals: 51/100
+
+Elapsed time: 21m 6s
+Estimated remaining time: 31m 39s
+Resident system RAM: 4.85 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.93 GB
+
+Running trial 71 of 100...
+* Parameters:
+  * direction_index = 15.74
+  * attn.o_proj.max_weight = 1.44
+  * attn.o_proj.max_weight_position = 23.68
+  * attn.o_proj.min_weight = 1.32
+  * attn.o_proj.min_weight_distance = 20.71
+  * mlp.down_proj.max_weight = 1.30
+  * mlp.down_proj.max_weight_position = 25.12
+  * mlp.down_proj.min_weight = 0.90
+  * mlp.down_proj.min_weight_distance = 11.62
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0671
+  * Counting model refusals...
+  * Refusals: 69/100
+
+Elapsed time: 22m 10s
+Estimated remaining time: 30m 36s
+Resident system RAM: 5.06 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.86 GB
+
+Running trial 72 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.39
+  * attn.o_proj.max_weight_position = 24.60
+  * attn.o_proj.min_weight = 0.99
+  * attn.o_proj.min_weight_distance = 17.91
+  * mlp.down_proj.max_weight = 1.49
+  * mlp.down_proj.max_weight_position = 22.43
+  * mlp.down_proj.min_weight = 0.50
+  * mlp.down_proj.min_weight_distance = 15.18
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1520
+  * Counting model refusals...
+  * Refusals: 14/100
+
+Elapsed time: 23m 10s
+Estimated remaining time: 29m 30s
+Resident system RAM: 5.11 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.99 GB
+
+Running trial 73 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.11
+  * attn.o_proj.max_weight_position = 27.18
+  * attn.o_proj.min_weight = 1.10
+  * attn.o_proj.min_weight_distance = 12.81
+  * mlp.down_proj.max_weight = 1.49
+  * mlp.down_proj.max_weight_position = 32.19
+  * mlp.down_proj.min_weight = 1.29
+  * mlp.down_proj.min_weight_distance = 8.06
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0674
+  * Counting model refusals...
+  * Refusals: 62/100
+
+Elapsed time: 24m 10s
+Estimated remaining time: 28m 23s
+Resident system RAM: 4.99 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.79 GB
+
+Running trial 74 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.21
+  * attn.o_proj.max_weight_position = 24.34
+  * attn.o_proj.min_weight = 1.06
+  * attn.o_proj.min_weight_distance = 18.40
+  * mlp.down_proj.max_weight = 1.48
+  * mlp.down_proj.max_weight_position = 26.79
+  * mlp.down_proj.min_weight = 1.05
+  * mlp.down_proj.min_weight_distance = 17.05
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1639
+  * Counting model refusals...
+  * Refusals: 16/100
+
+Elapsed time: 25m 12s
+Estimated remaining time: 27m 18s
+Resident system RAM: 4.56 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.41 GB
+
+Running trial 75 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.47
+  * attn.o_proj.max_weight_position = 23.98
+  * attn.o_proj.min_weight = 0.97
+  * attn.o_proj.min_weight_distance = 13.96
+  * mlp.down_proj.max_weight = 1.33
+  * mlp.down_proj.max_weight_position = 22.62
+  * mlp.down_proj.min_weight = 0.67
+  * mlp.down_proj.min_weight_distance = 17.91
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1970
+  * Counting model refusals...
+  * Refusals: 16/100
+
+Elapsed time: 26m 12s
+Estimated remaining time: 26m 12s
+Resident system RAM: 4.81 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.98 GB
+
+Running trial 76 of 100...
+* Parameters:
+  * direction_index = 21.68
+  * attn.o_proj.max_weight = 0.99
+  * attn.o_proj.max_weight_position = 29.17
+  * attn.o_proj.min_weight = 0.03
+  * attn.o_proj.min_weight_distance = 13.62
+  * mlp.down_proj.max_weight = 1.38
+  * mlp.down_proj.max_weight_position = 33.54
+  * mlp.down_proj.min_weight = 1.28
+  * mlp.down_proj.min_weight_distance = 6.27
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0039
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 27m 6s
+Estimated remaining time: 25m 1s
+Resident system RAM: 5.21 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.92 GB
+
+Running trial 77 of 100...
+* Parameters:
+  * direction_index = 17.44
+  * attn.o_proj.max_weight = 1.37
+  * attn.o_proj.max_weight_position = 24.55
+  * attn.o_proj.min_weight = 1.22
+  * attn.o_proj.min_weight_distance = 15.13
+  * mlp.down_proj.max_weight = 1.40
+  * mlp.down_proj.max_weight_position = 21.70
+  * mlp.down_proj.min_weight = 0.27
+  * mlp.down_proj.min_weight_distance = 7.40
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0380
+  * Counting model refusals...
+  * Refusals: 87/100
+
+Elapsed time: 28m 1s
+Estimated remaining time: 23m 52s
+Resident system RAM: 4.57 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.46 GB
+
+Running trial 78 of 100...
+* Parameters:
+  * direction_index = 22.03
+  * attn.o_proj.max_weight = 1.30
+  * attn.o_proj.max_weight_position = 22.62
+  * attn.o_proj.min_weight = 0.97
+  * attn.o_proj.min_weight_distance = 17.27
+  * mlp.down_proj.max_weight = 1.43
+  * mlp.down_proj.max_weight_position = 21.46
+  * mlp.down_proj.min_weight = 0.42
+  * mlp.down_proj.min_weight_distance = 16.92
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1275
+  * Counting model refusals...
+  * Refusals: 12/100
+
+Elapsed time: 28m 59s
+Estimated remaining time: 22m 46s
+Resident system RAM: 4.41 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.60 GB
+
+Running trial 79 of 100...
+* Parameters:
+  * direction_index = 25.18
+  * attn.o_proj.max_weight = 1.11
+  * attn.o_proj.max_weight_position = 21.34
+  * attn.o_proj.min_weight = 0.83
+  * attn.o_proj.min_weight_distance = 12.01
+  * mlp.down_proj.max_weight = 1.48
+  * mlp.down_proj.max_weight_position = 22.24
+  * mlp.down_proj.min_weight = 0.50
+  * mlp.down_proj.min_weight_distance = 19.12
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1277
+  * Counting model refusals...
+  * Refusals: 37/100
+
+Elapsed time: 29m 58s
+Estimated remaining time: 21m 42s
+Resident system RAM: 4.75 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.51 GB
+
+Running trial 80 of 100...
+* Parameters:
+  * direction_index = 20.66
+  * attn.o_proj.max_weight = 1.32
+  * attn.o_proj.max_weight_position = 22.20
+  * attn.o_proj.min_weight = 0.87
+  * attn.o_proj.min_weight_distance = 17.76
+  * mlp.down_proj.max_weight = 1.25
+  * mlp.down_proj.max_weight_position = 22.67
+  * mlp.down_proj.min_weight = 0.72
+  * mlp.down_proj.min_weight_distance = 18.47
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1302
+  * Counting model refusals...
+  * Refusals: 12/100
+
+Elapsed time: 31m 1s
+Estimated remaining time: 20m 41s
+Resident system RAM: 4.41 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.53 GB
+
+Running trial 81 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.36
+  * attn.o_proj.max_weight_position = 30.09
+  * attn.o_proj.min_weight = 0.80
+  * attn.o_proj.min_weight_distance = 20.35
+  * mlp.down_proj.max_weight = 1.28
+  * mlp.down_proj.max_weight_position = 23.45
+  * mlp.down_proj.min_weight = 0.05
+  * mlp.down_proj.min_weight_distance = 11.12
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0873
+  * Counting model refusals...
+  * Refusals: 36/100
+
+Elapsed time: 32m 0s
+Estimated remaining time: 19m 37s
+Resident system RAM: 4.73 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.86 GB
+
+Running trial 82 of 100...
+* Parameters:
+  * direction_index = 24.64
+  * attn.o_proj.max_weight = 1.44
+  * attn.o_proj.max_weight_position = 22.51
+  * attn.o_proj.min_weight = 1.30
+  * attn.o_proj.min_weight_distance = 14.84
+  * mlp.down_proj.max_weight = 1.44
+  * mlp.down_proj.max_weight_position = 22.80
+  * mlp.down_proj.min_weight = 0.28
+  * mlp.down_proj.min_weight_distance = 15.09
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1506
+  * Counting model refusals...
+  * Refusals: 19/100
+
+Elapsed time: 32m 57s
+Estimated remaining time: 18m 32s
+Resident system RAM: 4.92 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.71 GB
+
+Running trial 83 of 100...
+* Parameters:
+  * direction_index = 19.80
+  * attn.o_proj.max_weight = 1.23
+  * attn.o_proj.max_weight_position = 25.56
+  * attn.o_proj.min_weight = 0.83
+  * attn.o_proj.min_weight_distance = 16.73
+  * mlp.down_proj.max_weight = 1.34
+  * mlp.down_proj.max_weight_position = 21.15
+  * mlp.down_proj.min_weight = 0.10
+  * mlp.down_proj.min_weight_distance = 20.81
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0630
+  * Counting model refusals...
+  * Refusals: 9/100
+
+Elapsed time: 34m 0s
+Estimated remaining time: 17m 31s
+Resident system RAM: 5.25 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 11.20 GB
+
+Running trial 84 of 100...
+* Parameters:
+  * direction_index = 18.10
+  * attn.o_proj.max_weight = 1.05
+  * attn.o_proj.max_weight_position = 25.74
+  * attn.o_proj.min_weight = 0.34
+  * attn.o_proj.min_weight_distance = 17.72
+  * mlp.down_proj.max_weight = 1.44
+  * mlp.down_proj.max_weight_position = 21.54
+  * mlp.down_proj.min_weight = 0.06
+  * mlp.down_proj.min_weight_distance = 20.86
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0554
+  * Counting model refusals...
+  * Refusals: 43/100
+
+Elapsed time: 35m 2s
+Estimated remaining time: 16m 29s
+Resident system RAM: 5.28 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.83 GB
+
+Running trial 85 of 100...
+* Parameters:
+  * direction_index = 16.61
+  * attn.o_proj.max_weight = 1.15
+  * attn.o_proj.max_weight_position = 24.57
+  * attn.o_proj.min_weight = 0.20
+  * attn.o_proj.min_weight_distance = 18.21
+  * mlp.down_proj.max_weight = 1.46
+  * mlp.down_proj.max_weight_position = 22.70
+  * mlp.down_proj.min_weight = 0.06
+  * mlp.down_proj.min_weight_distance = 19.66
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0646
+  * Counting model refusals...
+  * Refusals: 92/100
+
+Elapsed time: 36m 3s
+Estimated remaining time: 15m 27s
+Resident system RAM: 5.25 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 11.16 GB
+
+Running trial 86 of 100...
+* Parameters:
+  * direction_index = 27.75
+  * attn.o_proj.max_weight = 1.18
+  * attn.o_proj.max_weight_position = 32.91
+  * attn.o_proj.min_weight = 0.49
+  * attn.o_proj.min_weight_distance = 1.69
+  * mlp.down_proj.max_weight = 1.30
+  * mlp.down_proj.max_weight_position = 24.63
+  * mlp.down_proj.min_weight = 1.25
+  * mlp.down_proj.min_weight_distance = 4.58
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0162
+  * Counting model refusals...
+  * Refusals: 97/100
+
+Elapsed time: 36m 56s
+Estimated remaining time: 14m 22s
+Resident system RAM: 5.16 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.73 GB
+
+Running trial 87 of 100...
+* Parameters:
+  * direction_index = 19.66
+  * attn.o_proj.max_weight = 1.32
+  * attn.o_proj.max_weight_position = 30.72
+  * attn.o_proj.min_weight = 1.14
+  * attn.o_proj.min_weight_distance = 16.81
+  * mlp.down_proj.max_weight = 1.17
+  * mlp.down_proj.max_weight_position = 22.30
+  * mlp.down_proj.min_weight = 0.18
+  * mlp.down_proj.min_weight_distance = 20.24
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0533
+  * Counting model refusals...
+  * Refusals: 12/100
+
+Elapsed time: 37m 53s
+Estimated remaining time: 13m 19s
+Resident system RAM: 4.66 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.72 GB
+
+Running trial 88 of 100...
+* Parameters:
+  * direction_index = 20.68
+  * attn.o_proj.max_weight = 1.22
+  * attn.o_proj.max_weight_position = 31.62
+  * attn.o_proj.min_weight = 1.10
+  * attn.o_proj.min_weight_distance = 18.13
+  * mlp.down_proj.max_weight = 1.10
+  * mlp.down_proj.max_weight_position = 22.13
+  * mlp.down_proj.min_weight = 0.23
+  * mlp.down_proj.min_weight_distance = 19.69
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0603
+  * Counting model refusals...
+  * Refusals: 44/100
+
+Elapsed time: 38m 53s
+Estimated remaining time: 12m 17s
+Resident system RAM: 4.86 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.85 GB
+
+Running trial 89 of 100...
+* Parameters:
+  * direction_index = 15.12
+  * attn.o_proj.max_weight = 1.35
+  * attn.o_proj.max_weight_position = 29.90
+  * attn.o_proj.min_weight = 1.00
+  * attn.o_proj.min_weight_distance = 12.07
+  * mlp.down_proj.max_weight = 1.22
+  * mlp.down_proj.max_weight_position = 26.53
+  * mlp.down_proj.min_weight = 0.05
+  * mlp.down_proj.min_weight_distance = 19.45
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0362
+  * Counting model refusals...
+  * Refusals: 99/100
+
+Elapsed time: 39m 50s
+Estimated remaining time: 11m 14s
+Resident system RAM: 5.06 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.86 GB
+
+Running trial 90 of 100...
+* Parameters:
+  * direction_index = 17.43
+  * attn.o_proj.max_weight = 1.47
+  * attn.o_proj.max_weight_position = 30.91
+  * attn.o_proj.min_weight = 0.94
+  * attn.o_proj.min_weight_distance = 19.75
+  * mlp.down_proj.max_weight = 1.34
+  * mlp.down_proj.max_weight_position = 22.28
+  * mlp.down_proj.min_weight = 0.31
+  * mlp.down_proj.min_weight_distance = 20.65
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0779
+  * Counting model refusals...
+  * Refusals: 47/100
+
+Elapsed time: 40m 49s
+Estimated remaining time: 10m 12s
+Resident system RAM: 5.04 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.86 GB
+
+Running trial 91 of 100...
+* Parameters:
+  * direction_index = 21.14
+  * attn.o_proj.max_weight = 1.46
+  * attn.o_proj.max_weight_position = 30.09
+  * attn.o_proj.min_weight = 1.35
+  * attn.o_proj.min_weight_distance = 14.05
+  * mlp.down_proj.max_weight = 1.07
+  * mlp.down_proj.max_weight_position = 21.61
+  * mlp.down_proj.min_weight = 0.02
+  * mlp.down_proj.min_weight_distance = 15.83
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0486
+  * Counting model refusals...
+  * Refusals: 74/100
+
+Elapsed time: 41m 44s
+Estimated remaining time: 9m 10s
+Resident system RAM: 4.85 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.67 GB
+
+Running trial 92 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.43
+  * attn.o_proj.max_weight_position = 24.48
+  * attn.o_proj.min_weight = 1.21
+  * attn.o_proj.min_weight_distance = 18.84
+  * mlp.down_proj.max_weight = 1.06
+  * mlp.down_proj.max_weight_position = 22.59
+  * mlp.down_proj.min_weight = 0.06
+  * mlp.down_proj.min_weight_distance = 19.67
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.1250
+  * Counting model refusals...
+  * Refusals: 22/100
+
+Elapsed time: 42m 42s
+Estimated remaining time: 8m 8s
+Resident system RAM: 4.77 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.84 GB
+
+Running trial 93 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.37
+  * attn.o_proj.max_weight_position = 21.55
+  * attn.o_proj.min_weight = 1.35
+  * attn.o_proj.min_weight_distance = 8.91
+  * mlp.down_proj.max_weight = 1.05
+  * mlp.down_proj.max_weight_position = 22.33
+  * mlp.down_proj.min_weight = 0.14
+  * mlp.down_proj.min_weight_distance = 1.03
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0372
+  * Counting model refusals...
+  * Refusals: 75/100
+
+Elapsed time: 43m 37s
+Estimated remaining time: 7m 6s
+Resident system RAM: 4.82 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.78 GB
+
+Running trial 94 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.23
+  * attn.o_proj.max_weight_position = 22.26
+  * attn.o_proj.min_weight = 1.19
+  * attn.o_proj.min_weight_distance = 4.91
+  * mlp.down_proj.max_weight = 0.85
+  * mlp.down_proj.max_weight_position = 23.85
+  * mlp.down_proj.min_weight = 0.05
+  * mlp.down_proj.min_weight_distance = 1.75
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0215
+  * Counting model refusals...
+  * Refusals: 93/100
+
+Elapsed time: 44m 30s
+Estimated remaining time: 6m 4s
+Resident system RAM: 4.91 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.80 GB
+
+Running trial 95 of 100...
+* Parameters:
+  * direction_index = 28.09
+  * attn.o_proj.max_weight = 1.30
+  * attn.o_proj.max_weight_position = 23.28
+  * attn.o_proj.min_weight = 1.19
+  * attn.o_proj.min_weight_distance = 10.57
+  * mlp.down_proj.max_weight = 1.06
+  * mlp.down_proj.max_weight_position = 22.65
+  * mlp.down_proj.min_weight = 0.37
+  * mlp.down_proj.min_weight_distance = 6.13
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0400
+  * Counting model refusals...
+  * Refusals: 88/100
+
+Elapsed time: 45m 26s
+Estimated remaining time: 5m 3s
+Resident system RAM: 5.01 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.93 GB
+
+Running trial 96 of 100...
+* Parameters:
+  * direction_index = 22.50
+  * attn.o_proj.max_weight = 1.26
+  * attn.o_proj.max_weight_position = 31.28
+  * attn.o_proj.min_weight = 1.10
+  * attn.o_proj.min_weight_distance = 8.41
+  * mlp.down_proj.max_weight = 1.39
+  * mlp.down_proj.max_weight_position = 21.12
+  * mlp.down_proj.min_weight = 0.28
+  * mlp.down_proj.min_weight_distance = 20.65
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0432
+  * Counting model refusals...
+  * Refusals: 75/100
+
+Elapsed time: 46m 22s
+Estimated remaining time: 4m 2s
+Resident system RAM: 5.07 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.81 GB
+
+Running trial 97 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.45
+  * attn.o_proj.max_weight_position = 23.06
+  * attn.o_proj.min_weight = 1.30
+  * attn.o_proj.min_weight_distance = 6.61
+  * mlp.down_proj.max_weight = 1.25
+  * mlp.down_proj.max_weight_position = 23.43
+  * mlp.down_proj.min_weight = 0.04
+  * mlp.down_proj.min_weight_distance = 2.77
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0350
+  * Counting model refusals...
+  * Refusals: 71/100
+
+Elapsed time: 47m 15s
+Estimated remaining time: 3m 1s
+Resident system RAM: 4.62 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.59 GB
+
+Running trial 98 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.48
+  * attn.o_proj.max_weight_position = 25.14
+  * attn.o_proj.min_weight = 1.08
+  * attn.o_proj.min_weight_distance = 4.09
+  * mlp.down_proj.max_weight = 1.35
+  * mlp.down_proj.max_weight_position = 22.57
+  * mlp.down_proj.min_weight = 0.23
+  * mlp.down_proj.min_weight_distance = 7.54
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0550
+  * Counting model refusals...
+  * Refusals: 76/100
+
+Elapsed time: 48m 9s
+Estimated remaining time: 2m 0s
+Resident system RAM: 4.63 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.72 GB
+
+Running trial 99 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.49
+  * attn.o_proj.max_weight_position = 26.59
+  * attn.o_proj.min_weight = 1.06
+  * attn.o_proj.min_weight_distance = 3.95
+  * mlp.down_proj.max_weight = 1.07
+  * mlp.down_proj.max_weight_position = 22.90
+  * mlp.down_proj.min_weight = 0.02
+  * mlp.down_proj.min_weight_distance = 3.47
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0105
+  * Counting model refusals...
+  * Refusals: 89/100
+
+Elapsed time: 49m 7s
+Estimated remaining time: 1m 0s
+Resident system RAM: 4.56 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.32 GB
+
+Running trial 100 of 100...
+* Parameters:
+  * direction_index = per layer
+  * attn.o_proj.max_weight = 1.42
+  * attn.o_proj.max_weight_position = 28.36
+  * attn.o_proj.min_weight = 0.67
+  * attn.o_proj.min_weight_distance = 2.69
+  * mlp.down_proj.max_weight = 0.96
+  * mlp.down_proj.max_weight_position = 21.22
+  * mlp.down_proj.min_weight = 0.02
+  * mlp.down_proj.min_weight_distance = 3.20
+* Resetting model...
+* Abliterating...
+* Evaluating...
+  * Obtaining first-token probability distributions...
+  * KL divergence: 0.0088
+  * Counting model refusals...
+  * Refusals: 100/100
+
+Elapsed time: 49m 59s
+Resident system RAM: 4.50 GB
+Allocated XPU memory: 7.50 GB
+Reserved XPU memory: 10.68 GB
+
+Optimization finished!
+
+The following trials resulted in Pareto optimal combinations of refusals and KL
+divergence. After selecting a trial, you will be able to save the model, upload
+it to Hugging Face, chat with it to test how well it works, or run standard 
+benchmarks on it. You can return to this menu later to select a different 
+trial. Note that KL divergence values above 0.5 usually indicate significant 
+damage to the original model's capabilities.
+
+
+===== continue_50.py: run() returned cleanly =====
